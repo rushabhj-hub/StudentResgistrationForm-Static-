@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	background-color: #EDF5E1
+	/*background-color: #8EE4AF*/
+	/*background-color: #4E4E50*/
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  overflow: hidden;
+  background-color: #4E4E50;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#other{
+	font-family: serif;
+	font-size: 25px;
+	position: relative;
+	top:40px;
+}
+
+
+#head{
+	font-family: serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top:50px;
+	border-radius: 8px;
+	padding-top: 5px;
+	left : 350px;
+	background-color: #45A29E;
+	height: 100px;
+	width:650px;
+}
+
+#headhome{
+	font-family: serif;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top:50px;
+	border-radius: 8px;
+	padding-top: 5px;
+	left : 350px;
+	background-color: #45A29E;
+	height: 150px;
+	border: 1px solid white;
+	width:650px;
+}
+
+#headhome2{
+	font-family: serif;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top:50px;
+	border-radius: 8px;
+	padding-top: 5px;
+	left : 350px;
+	background-color: #45A29E;
+	height: 250px;
+	border: 1px solid white;
+
+	width:650px;
+}
+
+#head2{
+	font-family: serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top:50px;
+	border-radius: 8px;
+	padding-top: 5px;
+	left : 350px;
+	background-color:#66ff66 ;
+	height: 50px;
+	width:650px;
+}
+
+#ins{
+	position:relative;
+	left:30px;
+	top:100px;
+	height: 50px;
+	width: 1200px;
+	font-size: 20px;
+	text-align: center;
+	padding:5px 5px;
+	color: white;
+	border-radius: 8px;
+	background-color: #4E4E50;
+}
+
+#imp{
+	position:relative;
+	left:300px;
+	top:130px;
+	height: 60px;
+	width: 525px;
+	color: white;
+	border-radius: 8px;
+	background-color: #F64C72;
+}
+
+#formt{
+	position: relative;
+	top:150px;
+	left:300px;
+	padding: 15px 15px 15px 15px;
+	height: 2950px;
+	width: 700px;
+	color: white;
+	line-height: 1.7;
+	font-family: serif;
+	font-size: 20px;
+	background-color: #45A29E;
+	border-radius: 8px
+}
+
+#formt2{
+	position: relative;
+	top:120px;
+	left:300px;
+	padding: 15px 15px 15px 15px;
+	height: 300px;
+	width: 700px;
+	color: white;
+	line-height: 1.7;
+	font-family: serif;
+	font-size: 20px;
+	background-color: #45A29E;
+	border-radius: 8px
+}
+
+#formt3{
+	position: relative;
+	top:120px;
+	left:300px;
+	padding: 15px 15px 15px 15px;
+	height: 200px;
+	width: 700px;
+	color: white;
+	line-height: 1.7;
+	font-family: serif;
+	font-size: 20px;
+	background-color: #45A29E;
+	border-radius: 8px
+}

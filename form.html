@@ -1,0 +1,238 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration Page</title>
+
+	<link rel="stylesheet" type="text/css" href="file.css">
+</head>
+
+<body style="background-image: url(rcoem.jpg);background-repeat: no-repeat;background-size: 100%;background-position: center;background-attachment: fixed;">
+<div>
+<ul >
+  <li><a href="http://www.rknec.edu/"><img src="rknec.png" style="height: 120px;width: 140px"></a></li>
+  <li id="other"><a class="active" href="home.html">Home</a></li>
+  <li id="other"><a href="http://happenings.rknec.edu/">News</a></li>
+  <li id="other"><a href="http://www.rknec.edu/ContactUs.aspx">Contact</a></li>
+  <li id="other"><a href="http://www.rknec.edu/Imp%20Links/SRSS.aspx">About</a></li>
+</ul>
+</div>
+<marquee style="font-family: serif;color: green;font-size: 15px">Registration for B.E First Year Academic Session 2021-22 started from 10th February 2021.</marquee>
+<div id="head">
+	Welcome to the Student Registration Form<br>
+	(For B.E First Year 2021-22)
+</div>
+
+
+<div id="ins">
+	Please fill out all the details correctly in the form below. Also, upload the required documents wherever necessary.
+</div>
+
+<div id="imp">
+	*Note : These Details will be further verified at the Institute level.<br>
+	
+</div>
+
+<div id="formt">
+"<strong style="color: red;">*</strong>" corresponds to mandatory field.<br>
+
+<h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Personal Details</h3>
+<FORM name="form1" Method= "get" Action= "regis.html" >
+
+
+<label for="name">First name<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="name" placeholder="Your first name.."
+size="50" MAXLENGTH="100" required><BR>
+
+<label for="lname">Last name<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="lname" placeholder="Your last name.."
+size="50" MAXLENGTH="100" required><BR>
+
+
+<label for="gname">Father's/Guardian's name<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="gname" 
+size="50" MAXLENGTH="100" required><BR>
+
+<label for="mname">Mother's name<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="mname"
+size="50" MAXLENGTH="100" required><BR>
+
+Gender<strong style="color: red;">*</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<input type="radio" id="male" name="gender" value="male">
+ <label for="male">Male</label>&nbsp
+
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">Female</label>&nbsp
+
+  <input type="radio" id="otherg" name="gender" value="otherg">
+  <label for="otherg">Other</label><br>
+
+<label for="dob">Date of birth<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="dob" placeholder="dd-mm-yyyy" 
+size="50" MAXLENGTH="100"  required><BR>
+
+Resident of<strong style="color: red;">*</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type="radio" id="ind" name="resi" value="ind">
+ <label for="ind">India</label>&nbsp
+ <input type="radio" id="os" name="resi" value="os">
+ <label for="os">Outside India</label><br>
+
+ <br>
+
+ <h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Communication Details</h3>
+	
+
+<label for="mob">Mobile Number<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="mob" placeholder="Eg : 9822572312"
+
+size="50" MAXLENGTH="100" required><BR>
+
+<label for="mob">Alternate Mobile Number</label>
+<input style="float: right;" type="text"  id="mob" 
+
+size="50" MAXLENGTH="100" ><BR>
+
+<label for="email">Email Id</label>
+<input style="float: right;" type="text"  id="email" placeholder="Eg : xzy@domain.com "
+size="50" MAXLENGTH="100"><BR>
+
+<label for="a1">Address Line 1<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="a1" placeholder="Flat Number / Plot Number, Street"
+
+size="50" MAXLENGTH="100" required><BR>
+
+<label for="a2">Address Line 2<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="a2" placeholder="Locality, Area"
+
+size="50" MAXLENGTH="100" required><BR>
+
+<label for="a3">Address Line 3</label>
+<input style="float: right;" type="text"  id="a3" placeholder="other"
+
+size="50" MAXLENGTH="100"><BR>
+
+<label for="lm">Landmark</label>
+<input style="float: right;" type="text"  id="lm"
+
+size="50" MAXLENGTH="100"><BR>
+
+
+
+<label for="pn">Pincode<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="pn" placeholder="Eg : 441117 "
+size="50" MAXLENGTH="100"  required><BR>
+
+<label for="city">City/Town<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="city" placeholder="Eg : New Delhi"
+size="50" MAXLENGTH="100"  required><BR>
+
+
+<label for="Country">Country<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="Country" placeholder="Eg : India"
+size="50" MAXLENGTH="100"  required><BR>
+
+
+ <h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Image and Signature Upload</h3>
+	
+ Please submit a JPG,JPEG or a PNG file only with size of the file not exceeding than 300kbs<br><br>
+ <img src="sample.jpg" style="position: relative;left:70px;height: 150px;width: 120px;border-radius: 4px;border: 1px solid black">
+<br>
+
+ <label for="img" >Select Image<strong style="color: red;">*</strong></label>
+  <input type="file" id="img" name="img" accept="image/*"  required>
+
+  
+<br>
+<br>
+
+  <img src="sig.jpg" style="position: relative;left:70px;height: 150px;width: 200px;border-radius: 4px;border: 1px solid black">
+<br>
+ <label for="img" >Select Signature<strong style="color: red;">*</strong></label>
+  <input type="file" id="img" name="img" accept="image/*"  required>
+
+
+<br>
+
+ <h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Identity Proof Document Upload</h3>
+ Please submit a PDF file only with size of the file not exceeding than 300kbs.<br>
+
+ Select Any One<strong style="color: red;">*</strong> &nbsp 
+
+<input type="radio" id="ac" name="doc" value="ac">
+ <label for="ac">Aadhar Card</label>&nbsp
+
+ <input type="radio" id="dl" name="doc" value="dl">
+ <label for="dl">Driving Lisence</label>&nbsp
+
+  <input type="radio" id="pc" name="doc" value="pc">
+  <label for="pc">Pan Card</label><br><br>
+<div style="width: 670px;height: 180px;border: 1px solid black;background-color: white;color:black;padding: 10px 10px 10px 10px;border-radius: 4px">
+  <img src="ac.jpg" style="position :relative;left: 270px; height: 150px;width: 90px;border-radius: 4px;border: 1px solid black">
+  	<center>Please ensure that the document is correctly aligned.</center>
+</div>
+
+<br>
+ <label for="document" >Select Document<strong style="color: red;">*</strong></label>
+  <input type="file" id="document" name="doc" accept="file/*"  required>
+ <br>
+
+ <h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Qualification Details</h3>
+ 
+<label for="class10">Class 10th Percentage<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="class10" placeholder="Eg : 85.00"
+
+size="50" MAXLENGTH="100" required><BR>
+
+
+<label for="class12">Class 12th Percentage<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="class12" placeholder="Eg : 85.00"
+
+size="50" MAXLENGTH="100" required><BR>
+<br>
+ Please submit a PDF file only with size of the file not exceeding than 300kbs.<br>
+
+
+<label for="10m">Class 10th Marksheet </label>&nbsp
+<label for="document10m" >Select Document<strong style="color: red;">*</strong></label>
+  <input type="file" id="document10m" name="doc" accept="file/*"  required>
+
+<br>
+
+<label for="10m">Class 12th Marksheet </label>&nbsp
+<label for="document12m" >Select Document<strong style="color: red;">*</strong></label>
+  <input type="file" id="document12m" name="doc" accept="file/*"  required>
+
+
+<br>
+   <h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Create Login Details</h3>
+
+ The Username must be alpha-numeric, with <strong style="color: red">NO</strong> special characters.<br>Max Length : 20 characters.<br>
+   <label for="un">Create A Username<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="text"  id="un" placeholder="Eg : Rahul1"
+size="50" MAXLENGTH="100"  required><BR><br>
+The Password must be alpha-numeric and must have <strong style="color: green">at least one</strong> special character. Max Length : 20 characters.<br>
+<label for="ps">Create A Password<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="Password"  id="ps" placeholder="Eg : @12Rahul"
+size="50" MAXLENGTH="100"  required><BR>
+
+<label for="cps">Confirm Password<strong style="color: red;">*</strong></label>
+<input style="float: right;" type="Password"  id="cps" placeholder="Eg : @12Rahul"
+size="50" MAXLENGTH="100"  required><BR><br>
+
+
+<h3 style="border: 1px solid black;border-radius: 8px;text-align: center;">Declaration</h3>
+
+<input type="checkbox" name="ck"  required>
+I hereby confirm the all the details entered by me are true to my knowledge. I will be liable to punishments if any of the details are mismatched.<strong style="color: red;">*</strong><br>
+<input type="submit"  value="I agree" >
+<input type="reset" value="Reset" >
+
+</FORM>
+<hr>
+<center>We appreciate your Patience. Thank you for joining us!</center>
+</div>
+
+
+
+	</body>
+	</html>
